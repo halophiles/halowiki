@@ -64,9 +64,17 @@ def main():
         'Publications.md'
     )
     with open(output_filename, 'w') as out_file:
+        print('# Publications [ ](# )', file=out_file)
+        print('', file=out_file)
         for subheading in sorted(publications_dict.keys()):
-            print('##{0}'.format(subheading.strip('_')), file=out_file)
-            print(subheading)
+            print(' * [{0}](#{1})'.format(
+                subheading.replace ('_', ' '),
+                subheading.replace(' ', '-').lower()
+            ), file=out_file)
+        print('', file=out_file)
+        for subheading in sorted(publications_dict.keys()):
+            print('## {0}'.format(subheading.replace ('_', ' ')), file=out_file)
+            print('', file=out_file)
             pub_list = []
             for pub in publications_dict[subheading].keys():
                 citation_file = 'https://github.com/halophiles/halowiki/publications/{0}/{1}'.format(
@@ -81,12 +89,10 @@ def main():
                 key=itemgetter('Year', 'Lead Author'),
                 reverse=True,
             ):
-                import pprint
-                pprint.pprint(pub)
                 print(
-'''{0}
+'''*{0}*
 {1}
-{2}
+**{2}**
 {3} {4}({5})
 <details>
 <summary>Abstract and Links</summary>
@@ -106,7 +112,11 @@ def main():
                 pub['Abstract'],
                 ), file=out_file)
 
-
+            print(
+'''[Go to top of page](# )
+----''',
+                file=out_file
+            )
 
 if __name__ == '__main__':
     main()
