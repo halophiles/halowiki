@@ -1,0 +1,7 @@
+  * [Home](https://github.com/halophiles/halowiki/wiki)
+  * [Methods](https://github.com/halophiles/halowiki/wiki/Methods)
+  * [Publications](https://github.com/halophiles/halowiki/wiki/Publications)
+  * [Datasets](https://github.com/halophiles/halowiki/wiki/Datasets)
+  * [Gene Tools](https://github.com/halophiles/halowiki/wiki/Gene-Tools)
+  * [Resources](https://github.com/halophiles/halowiki/wiki/Resources)
+  * [Roadmap](https://github.com/adriantanasa/github-wiki-sidebar/wiki/Roadmap)

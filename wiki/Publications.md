@@ -21,7 +21,7 @@ Background Haloferax volcanii is an easily culturable moderate halophile that gr
 ----
 ## Methods
 
-*Development of Additional Selectable Markers for the Halophilic Archaeon &lt;em&gt;Haloferax volcanii&lt;/em&gt; Based on the &lt;em&gt;leuB&lt;/em&gt; and &lt;em&gt;trpA&lt;/em&gt; Genes*
+*Development of Additional Selectable Markers for the Halophilic Archaeon Haloferax volcanii Based on the leuB and trpA Genes*
 Allers, Thorsten; Ngo, Hien-Ping; Mevarech, Moshe; Lloyd, Robert G.
 **2004**
 Appl. Environ. Microbiol. 70(2)

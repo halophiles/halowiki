@@ -42,7 +42,8 @@ def main():
                         l.split('  - ')[1]
                     )
                 elif l.startswith('T1') is True:
-                    publications_dict[subfolder][ris]['Title'] = l.split('  - ')[1]
+                    title = l.split('  - ')[1].replace('&lt;em&gt;', '').replace('&lt;/em&gt;', '')
+                    publications_dict[subfolder][ris]['Title'] = title
                 elif l.startswith('Y1') is True or l.startswith('DA') is True:
                     year = int(l.split('  - ')[1].split('/')[0])
                     publications_dict[subfolder][ris]['Year'] = year
