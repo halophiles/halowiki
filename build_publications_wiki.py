@@ -115,7 +115,7 @@ def main():
                 ), file=out_file)
 
             print(
-'''[Go to top of page](# )\
+'''[Go to top of page](# )<br/>
 ----''',
                 file=out_file
             )
