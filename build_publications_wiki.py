@@ -91,16 +91,16 @@ def main():
                 reverse=True,
             ):
                 print(
-'''*{0}*
-{1}
-**{2}**
-{3} {4}({5})
+'''*{0}*\
+{1}\
+**{2}**\
+{3} {4}({5})\
 <details>
 <summary>Abstract and Links</summary>
 
-[Link to Publication]({6})
-[Citation]({7})
-{8}
+[Link to Publication]({6})\
+[Citation]({7})\
+{8}\
 </details>
 '''.format(
                 pub['Title'],
@@ -115,7 +115,7 @@ def main():
                 ), file=out_file)
 
             print(
-'''[Go to top of page](# )
+'''[Go to top of page](# )\
 ----''',
                 file=out_file
             )
