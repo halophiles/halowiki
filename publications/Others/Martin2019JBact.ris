@@ -1,0 +1,22 @@
+TY  - JOUR
+T1  - GlpR Is a Direct Transcriptional Repressor of Fructose Metabolic Genes in &lt;span class=&quot;named-content genus-species&quot; id=&quot;named-content-1&quot;&gt;Haloferax volcanii&lt;/span&gt;
+JF  - Journal of Bacteriology
+JO  - J. Bacteriol.
+DO  - 10.1128/JB.00244-18
+VL  - 200
+IS  - 17
+SP  - e00244-18
+AU  - Martin, Jonathan H.
+AU  - Sherwood Rawls, Katherine
+AU  - Chan, Jou Chin
+AU  - Hwang, Sungmin
+AU  - Martinez-Pastor, Mar
+AU  - McMillan, Lana J.
+AU  - Prunetti, Laurence
+AU  - Schmid, Amy K.
+AU  - Maupin-Furlow, Julie A.
+A2  - Metcalf, William W.
+Y1  - 2018/09/01
+UR  - http://jb.asm.org/content/200/17/e00244-18.abstract
+N2  - DeoR-type helix-turn-helix (HTH) domain proteins are transcriptional regulators of sugar and nucleoside metabolism in diverse bacteria and also occur in select archaea. In the model archaeon Haloferax volcanii, previous work implicated GlpR, a DeoR-type transcriptional regulator, in the transcriptional repression of glpR and the gene encoding the fructose-specific phosphofructokinase (pfkB) during growth on glycerol. However, the global regulon governed by GlpR remained unclear. Here, we compared transcriptomes of wild-type and ΔglpR mutant strains grown on glycerol and glucose to detect significant transcript level differences for nearly 50 new genes regulated by GlpR. By coupling computational prediction of GlpR binding sequences with in vivo and in vitro DNA binding experiments, we determined that GlpR directly controls genes encoding enzymes involved in fructose degradation, including fructose bisphosphate aldolase, a central control point in glycolysis. GlpR also directly controls other transcription factors. In contrast, other metabolic pathways appear to be under the indirect influence of GlpR. In vitro experiments demonstrated that GlpR purifies to function as a tetramer that binds the effector molecule fructose-1-phosphate (F1P). These results suggest that H. volcanii GlpR functions as a direct negative regulator of fructose degradation during growth on carbon sources other than fructose, such as glucose and glycerol, and that GlpR bears striking functional similarity to bacterial DeoR-type regulators.IMPORTANCE Many archaea are extremophiles, able to thrive in habitats of extreme salinity, pH and temperature. These biological properties are ideal for applications in biotechnology. However, limited knowledge of archaeal metabolism is a bottleneck that prevents the broad use of archaea as microbial factories for industrial products. Here, we characterize how sugar uptake and use are regulated in a species that lives in high salinity. We demonstrate that a key sugar regulatory protein in this archaeal species functions using molecular mechanisms conserved with distantly related bacterial species.
+ER  - 
