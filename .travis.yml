@@ -1,0 +1,21 @@
+language: python
+python:
+- '3.6'
+sudo: false
+branches:
+  only:
+  - master
+script:
+- python build_publications_wiki.py
+after_success:
+- git clone "https://${GITHUB_TOKEN}@github.com/halophiles/halowiki.wiki.git"
+- mv -v wiki/* halowiki.wiki/
+- cd halowiki.wiki
+- git add .
+- git commit -m "Generated Wiki via Travis-CI"
+- git push
+notifications:
+  email: false
+env:
+  matrix:
+    secure: gvuZ84W/Cf6nCTuz9lGxRuDBXUoL2RNHbfUVlkAlRz/CQ+ihSr2C5EcnHxU5fwatnshBpntRiD4PMU225uE6nwHLdjr7OSzHvETZJHM6S9fTor9XAxI+wmpLP78lrx07o3RZLWAo4aqywJcy9JI+D9LUBL31e64omn7fTRYf9U8+EHrL3bVTkYih8rNxrUk3FLQ4bgHr8slhCQsK/0dcFIW03MTTcGIwUGS0AVBQmKwJ2lJW56ZIAdOfaRxS+uOZRNEWGD5ulQ7FhiHqz/VzmZBq8jlpMHDlsFIQN+KNkiiEV/EqcdTLuLs8bqQjkSywub/yyMg3Kr5zchoDS4vnsUr54KhxYDW9HzW5cDmvBUC/HdEMpNF2pAXD8jbcY316fX1D2/F/mzk2hZ5fHB3DQsvCYVrcBogR13SHxw7ELGYCEjXdCP97vj66oYM2545fvILxw91jTc+AuiqVk1I5XtvV12EfosdNkJtkVA3wws/ODt/Y+L/VY2sZbfCMEUq+L0afR0FSGE+zIpl4lgBIjGACJXvppGwbLiy0QBQbzQ4FfowXJIMF+ZI5iDiswjEXyPGHJbnuE0zpr+yCVCKMLlxz34coZReEtc1tvPQzx4VFwjRzS+PgiFaKd2creXpWKx6NVmErL7mo5NZa1X6DKHM4VSdbPRWgxd+ummy0pKY=
