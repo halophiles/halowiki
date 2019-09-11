@@ -97,6 +97,7 @@ def main():
 {3} {4}({5})
 <details>
 <summary>Abstract and Links</summary>
+
 [Link to Publication]({6})
 [Citation]({7})
 {8}
