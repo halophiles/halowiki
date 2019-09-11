@@ -1,5 +1,7 @@
 # Welcome to the halowiki! 
 
+|build-status-travis|
+
 .. |build-status-travis| image:: https://travis-ci.com/halophiles/halowiki.svg?branch=master
    :target: https://travis-ci.com/halophiles/halowiki
    :alt: Travis CI status
