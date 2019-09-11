@@ -1,10 +1,6 @@
 # Welcome to the halowiki! 
 
-|build-status-travis|
-
-.. |build-status-travis| image:: https://travis-ci.com/halophiles/halowiki.svg?branch=master
-   :target: https://travis-ci.com/halophiles/halowiki
-   :alt: Travis CI status
+[![Build Status](https://travis-ci.com/halophiles/halowiki.svg?branch=master)](https://travis-ci.com/halophiles/halowiki)
 
 ### Click on the ["wiki"](https://github.com/halophiles/halowiki/wiki) tab to access protocols, computational analyses, tools, and more!
 
