@@ -91,16 +91,16 @@ def main():
                 reverse=True,
             ):
                 print(
-'''*{0}*\
-{1}\
-**{2}**\
-{3} {4}({5})\
+'''*{0}*<br/>
+{1}<br/>
+**{2}**<br/>
+{3} {4}({5})<br/>
 <details>
 <summary>Abstract and Links</summary>
 
-[Link to Publication]({6})\
-[Citation]({7})\
-{8}\
+[Link to Publication]({6})<br/>
+[Citation]({7})<br/>
+{8}<br/>
 </details>
 '''.format(
                 pub['Title'],
