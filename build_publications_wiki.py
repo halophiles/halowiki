@@ -101,7 +101,8 @@ def main():
 [Link to Publication]({6})<br/>
 [Citation]({7})<br/>
 {8}<br/>
-</details>
+</details><br/>
+---
 '''.format(
                 pub['Title'],
                 '; '.join(pub['Authors']),
