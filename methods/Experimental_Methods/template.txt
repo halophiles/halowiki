@@ -1,0 +1,14 @@
+>Title
+Short title for the method
+
+>Introduction
+Short description of the aim of the protocol and potentially which organism(s) it has been tested in.
+
+>Literature
+List literature that first described or optimized the methods
+
+>Materials
+List solutions and material that is required
+
+>Procedure
+Step-by-step protocol (ideally numbered) of the method

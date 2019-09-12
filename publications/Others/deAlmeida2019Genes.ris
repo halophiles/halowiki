@@ -1,0 +1,28 @@
+TY  - EJOU
+AU  - de Almeida, P. João
+AU  - Vêncio, Z. N. Ricardo
+AU  - Lorenzetti, P. R. Alan
+AU  - ten-Caten, Felipe
+AU  - Gomes-Filho, V. José
+AU  - Koide, Tie
+TI  - The Primary Antisense Transcriptome of Halobacterium salinarum NRC-1
+T2  - Genes
+
+PY  - 2019
+VL  - 10
+IS  - 4
+SN  - 2073-4425
+
+AB  - Antisense RNAs (asRNAs) are present in diverse organisms and play important roles in gene regulation. In this work, we mapped the primary antisense transcriptome in the halophilic archaeon Halobacterium salinarum NRC-1. By reanalyzing publicly available data, we mapped antisense transcription start sites (aTSSs) and inferred the probable 3&prime; ends of these transcripts. We analyzed the resulting asRNAs according to the size, location, function of genes on the opposite strand, expression levels and conservation. We show that at least 21% of the genes contain asRNAs in H. salinarum. Most of these asRNAs are expressed at low levels. They are located antisense to genes related to distinctive characteristics of H. salinarum, such as bacteriorhodopsin, gas vesicles, transposases and other important biological processes such as translation. We provide evidence to support asRNAs in type II toxin&ndash;antitoxin systems in archaea. We also analyzed public Ribosome profiling (Ribo-seq) data and found that ~10% of the asRNAs are ribosome-associated non-coding RNAs (rancRNAs), with asRNAs from transposases overrepresented. Using a comparative transcriptomics approach, we found that ~19% of the asRNAs annotated in H. salinarum belong to genes with an ortholog in Haloferax volcanii, in which an aTSS could be identified with positional equivalence. This shows that most asRNAs are not conserved between these halophilic archaea.
+KW  - antisense RNA
+KW  - Halobacterium salinarum
+KW  - transcriptome
+KW  - dRNA-seq
+KW  - archaea
+KW  - transcription start site
+KW  - post-transcriptional regulation
+KW  - gene expression
+KW  - type II toxin-antitoxin systems
+KW  - Ribo-seq
+DO  - 10.3390/genes10040280
+UR  - https://www.mdpi.com/2073-4425/10/4/280
